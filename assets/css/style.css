@@ -1,0 +1,429 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Merriweather', serif;
+        font-family: 'Roboto', sans-serif;
+        margin: 0; 
+    }
+
+    .heropage {
+        background: url("../optimages/firstbackground.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+    }
+
+    .darken-image {
+        background: rgba(0, 0, 0, 0.8);
+        min-height: 100vh;
+    }
+
+    .container {
+        max-width: 1150px;
+        margin: 0 auto;
+    }
+
+    .flex-container {
+        display: flex;
+    }
+
+    .slogan {
+        max-width: 750px;
+        margin: 0 auto;
+        text-align: center;
+        color: #fff;
+    }
+
+    i {
+        color: #f7ac53;
+    }
+
+    h1 {
+        border: 2px solid #5b5b5b;
+        margin-top: 25%;
+        font-family: 'Merriweather', serif;
+        font-size: 3.4375rem;
+        line-height: 1.6363;
+    }
+
+    .main-nav > .flex-container{
+        justify-content: space-around;
+        max-width: 50%;
+        margin-left: 25%;
+        padding: 4.3% 0;
+    }
+
+    .main-nav li {
+        list-style: none;   
+    }
+
+    .main-nav a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 0.8125rem;
+        line-height: 2;
+        text-transform: uppercase;
+        border-right: 1px solid #f7ac53;
+        border-left: 1px solid #f7ac53;
+        padding: 5%; 
+    }
+
+    .arrow-down {
+        padding: 10% 0;
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .herobottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    h2 {
+        color: #fff;
+        font-family: 'Merriweather', serif;
+        font-size: 2.5rem;
+        line-height: 1.625;
+        padding: 0 20%;
+        text-align: center;
+    }
+
+    h3 {
+        font-family: 'Merriweather, serif';
+        font-size: 1.875rem;
+        line-height: 2.1666;
+        color: #fff;
+    }
+
+    h4,
+    h5 {
+        color: #f7ac53;
+        font-family: 'Open Sans', serif;
+        font-size: 0.875rem;
+        line-height: 2.8571;
+        margin: 0;
+        padding: 110px 0 0 0;
+        text-align: center;
+    }
+
+    .servicespage {
+        background-color: #202020;
+        color: #fff;  
+    }
+
+    .service-title h4 {
+        padding: .9%;
+        display: inline-block;
+        position: relative;
+        margin-top: 5%;
+        margin-left: 45%;
+    }
+
+    .service-title h4:before {
+        content: '';
+        width: 1px;
+        height: 95%;
+        background: #f7ac53;
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        margin-left: -2px;
+    }
+
+    .service_column {
+        display: flex;
+        justify-content: center;
+        padding: 5% 0 12%;
+    }
+
+    .service-col {
+        max-width: 100%;
+        padding: 0 5%;
+    }
+
+    p {
+        font-family:'Open Sans', sans-serif;
+        font-size: 0.875rem;
+        line-height: 1.9285;
+        color: #bbbbbb;
+    }
+
+    .slider {
+        background-color: #181818;
+        padding-bottom: 10%;
+    }
+
+    .carousel {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .flex{
+	    display: flex;
+	    flex-wrap: wrap;
+	    justify-content: space-between;
+    }
+
+    .testimonials {
+        background-color: #202020;
+    }
+
+    .companies {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .gallery {
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+
+    .galleryimg {
+        display: flex;
+        justify-content: center;
+        margin: 17px 0;   
+        width: calc(25% - 34);
+    }
+
+    .theteam {
+        background-color: #181818;
+    }  
+
+    .teamh5 {
+        padding: 10% 0;
+        width: 100%;
+    }
+
+    .teamcontainer {
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 3% 0;  
+    } 
+
+    .member {
+        color: #fff;
+        text-align: center;
+        padding: 1% 1%;
+        width: calc(25% - 3%);
+    }
+
+    .contact {
+        background-color: #232323;
+        color: rgb(139, 133, 133);
+    }
+  
+    .contact .section-title h2:after {
+        border-color:#232323;
+    }
+  
+    form {
+        margin-top: 5%;
+        margin-left: 15%;
+    }
+
+    .form-control {
+        width: 30%;
+        background-color: #181818;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #202020;
+        color: #fff;
+        margin: 5%;
+    }
+
+    .message {
+        width: 70%;
+    }
+
+    .contact-form {
+        background-color: #181818;
+        margin-left: 20%;
+        width: 60%;       
+    }
+
+    .contact-form 
+    .submit {
+        margin-left: 25%;
+    }
+
+    form 
+    .submit {
+        background: #f7ac53;
+        color: black;   
+    }
+
+    .offices {
+        display: flex;
+        justify-content: space-around;
+        margin: 0 22%;
+        padding-top: 4%;
+        padding-bottom: 6%;
+        color: #fff;
+    }
+    
+    .logo2, 
+    .office {
+       padding: 0 3%;
+    }
+
+  @media all and (max-width: 568px) {
+
+    h1 {
+        font-size: 18px;
+        margin: 55% 5% 0;
+        padding: 0;
+    }
+
+    h2 {
+        font-size: 16px;
+        margin: 0;
+        padding: 10% 0 5% 0;
+    }
+
+    h3 {
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    h4 {
+        font-size: 10px;
+        margin: 0;
+        padding-top: 5%;
+    }
+
+    p {
+        font-size: 8px;
+    }
+
+    .main-nav ul {
+        padding: 12% 10%;
+    }
+    .main-nav li {
+        margin: 0 10%;
+    }
+    .arrow-down {
+        padding-bottom: 40%;
+    }
+    .herobottom {
+        padding: 2% 5%;
+    }
+
+    .service-title h4 {
+        margin-left: 37%;
+        margin-top: 10.5%;
+    }
+    
+    .service-title h2{
+        padding: 1%;
+    }
+
+    .service_column {
+        flex-direction: column;
+        padding: 0 0 17% 0;
+    }
+
+    .service_column a, i {
+        margin: 0;
+        font-size: 10px;  
+    }
+
+    .service-col {
+        padding: 1% 10%;
+    
+    }
+
+    .slider {
+        margin: 0;
+        padding: 32% 5%;
+    }
+
+    .companies > a {
+        padding: 1% 5%;
+    }
+     
+    .gallery {
+
+        padding: 1% 0;
+        align-items: center;  
+    }
+    
+    .galleryimg {
+        width: 100%;
+        flex: 25%;
+    }
+
+    .teamcontainer {
+        padding-top: 5%;
+    }
+    
+    .member, 
+    .teamh5, 
+    h6 {
+       width: 100%;
+       padding: 1%;
+       margin-top: 1%;
+    }
+
+    .section-title {
+        padding-bottom: 5%;
+    }
+    
+    .section-content {
+        margin: 0;
+        padding: 0 5%;
+    }
+
+    .form-control {
+        width: 100%; 
+        margin: 0;
+        padding: 5% 5%;
+    }
+
+    .contact-form {
+        margin: 0%;
+        width: 100%;
+    }
+
+    .form-control.submit {
+        margin-left: 30%;
+        width: 40%;
+    }
+
+    form {
+        margin: 0;
+        padding: 5%;
+    }
+
+    .offices {
+        margin: 0;
+        padding: 5% 5%;
+        flex-direction: column;
+    } 
+  }
+    @media all and (max-width: 768px) {
+
+    .service-title h4 {
+        margin-top: 7%;
+        margin-left: 45%;    
+        }
+    }
